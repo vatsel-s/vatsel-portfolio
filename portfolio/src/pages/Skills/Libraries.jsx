@@ -29,7 +29,6 @@ function Libraries() {
             <SiLangchain className='w-16 h-16' />
             <SiHuggingface className='w-16 h-16' />
         </div>
-        
     </div>
   )
 }

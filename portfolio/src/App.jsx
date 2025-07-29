@@ -6,6 +6,7 @@ import Electrocardiogram from './pages/Experience/Electrocardiogram'
 import Narb from './pages/Experience/Narb'
 import Skillsheader from './pages/Skills/Skillsheader'
 import Skills from './pages/Skills/Skills'
+import Projects from './pages/Projects/Projects'
 import './App.css'
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
       <Narb />
       <Imade />
       <Electrocardiogram />
-      <Skillsheader /> 
+      <Projects />
       <Skills />
     </div>
   )
