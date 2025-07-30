@@ -3,7 +3,7 @@ import React from 'react'
 function ReLease() {
   return (
     <div className = "max-w-2xl mx-auto p-6 m-6 bg-gray-110 rounded-xl shadow-md flex md:flex-col items-center gap-6">
-        <h1 className='font-bold text-5xl mt-4'>
+        <h1 className='font-bold text-2xl mt-4'>
             ReLease
         </h1>
         <p className='text-lg mt-2'>
