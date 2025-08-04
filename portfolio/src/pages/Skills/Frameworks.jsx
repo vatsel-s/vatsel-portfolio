@@ -13,20 +13,65 @@ import { SiAnaconda } from "react-icons/si";
 
 function Frameworks() {
   return (
-    <div className="max-w-4xl mx-auto p-6 m-6 bg-primary rounded-xl shadow-md flex flex-col items-center gap-6">
+    <div className="max-w-4xl mx-auto p-6 m-6 rounded-xl shadow-md flex flex-col items-center gap-6">
         <h2 className='font-bold text-lg mt-4'>
             Frameworks/ Developer Tools: 
         </h2>
-        <div className='flex flex-row gap-4'>
-            <FaReact className='w-16 h-16' />
-            <FaNodeJs className='w-16 h-16' />
-            <FaDocker className='w-16 h-16' />
-            <FaFlask className='w-16 h-16' />
-            <SiFastapi className='w-16 h-16' />
-            <FaGithub className='w-16 h-16' />
-            <FaAws className='w-16 h-16' />
-            <DiVisualstudio className='w-16 h-16' />
-            <SiAnaconda className='w-16 h-16' />
+        <div className='grid grid-cols-5 gap-6'>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <FaReact className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    React
+                </h3>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <FaNodeJs className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    Node.js
+                </h3>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <FaDocker className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    Docker
+                </h3>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <FaFlask className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    Flask
+                </h3>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <SiFastapi className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    FastAPI
+                </h3>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <FaGithub className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    GitHub
+                </h3>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <FaAws className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    AWS
+                </h3>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <DiVisualstudio className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    Visual Studio
+                </h3>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <SiAnaconda className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    Anaconda
+                </h3>
+            </div>
         </div>
     </div> 
   )

@@ -11,23 +11,61 @@ import { SiLangchain } from "react-icons/si";
 import { SiHuggingface } from "react-icons/si";
 
 
-
 function Libraries() {
   return (
     <div className="max-w-4xl mx-auto p-6 m-6 bg-gray-110 rounded-xl shadow-md flex flex-col items-center gap-6">
         <h2 className='font-bold text-lg mt-4'>
             Libraries: 
         </h2>
-        <div className='flex flex-row gap-4'>
-            <SiPandas className='w-16 h-16' />
-            <SiNumpy className='w-16 h-16' />
-            <SiScikitlearn className='w-16 h-16' />
-            <SiTensorflow className='w-16 h-16' />
-            <SiKeras className='w-16 h-16' />
-            <SiPytorch className='w-16 h-16' />
-            <SiOpenai className='w-16 h-16' />
-            <SiLangchain className='w-16 h-16' />
-            <SiHuggingface className='w-16 h-16' />
+        <div className='grid grid-cols-4 gap-6'>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <SiPandas className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    Pandas
+                </h3>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <SiNumpy className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    NumPy
+                </h3>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <SiScikitlearn className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    scikit-learn
+                </h3>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <SiTensorflow className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    TensorFlow
+                </h3>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <SiKeras className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    Keras
+                </h3>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <SiOpenai className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    OpenAI
+                </h3>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <SiLangchain className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    Langchain
+                </h3>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <SiHuggingface className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    Hugging Face
+                </h3>
+            </div>
         </div>
     </div>
   )

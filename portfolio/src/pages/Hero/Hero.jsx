@@ -1,9 +1,10 @@
 import React from 'react'
 import profile_pic from '../../images/profile/profile.jpg'
+import HeroIcons from './HeroIcons'
 
 function Hero() {
   return (
-    <div className = "max-w-4xl mx-auto p-6 m-6 rounded-xl shadow-md flex flex-col md:flex-row items-center gap-6 border-6 border-primary p-4">
+    <div className = "max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-6">
         <img src={profile_pic} id="profile" className="w-24 sm:w-32 rounded-xl md:w-48 lg:w-64 rounded_full" alt="Profile Picture" />
         <div className="flex flex-col justify-center items-center md:items-center">
             <h1 className = 'font-bold text-5xl mt-4'>
@@ -18,6 +19,7 @@ function Hero() {
                 drug discovery and synthetic biology. I enjoy working on real-world challenges that can make positive impacts to the world around me. 
                 Outside of academics, I love playing tennis, cricket, and golf, as well as biking, going to concerts, and playing chess.
             </h2>
+            <HeroIcons />
         </div>
     </div>
   )

@@ -1,4 +1,5 @@
 import Hero from './pages/Hero/Hero'
+import HeroPage from './pages/Hero/HeroPage'
 import Sidenav from './layout/Sidenav'
 import Experience from './pages/Experience/Experience'
 import Skills from './pages/Skills/Skills'
@@ -9,10 +10,18 @@ function App() {
   return (
     <div>
       <Sidenav />
-      <Hero/>
-      <Experience />
-      <Projects />
-      <Skills />
+      <section id = "home">
+          <HeroPage />
+      </section>
+      <section id = "experience">
+        <Experience />
+      </section>
+      <section id = "projects">
+        <Projects />
+      </section>
+      <section id = "skills">
+        <Skills />
+      </section>
     </div>
   )
 }
