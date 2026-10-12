@@ -16,23 +16,14 @@ function Narb() {
                     </h3>
                     <div className = "flex item-center gap-2"> 
                         <CalendarDaysIcon className="w-6 h-6" />
-                        <span className="text-gray-300">June 2025 - Present</span>
+                        <span className="text-gray-300">June 2025 - August 2025</span>
                     </div>
                 </div>
             </div>
             <div className="flex flex-col items-start md:items-left">
-                <h3 className='text-md text-gray-300 mt-2'>
-                    - Built web/mobile app MVP for potential pantry management app to track current pantry items, expiration dates, and scheduling possible recipes
-                </h3> 
-                <h3 className='text-md text-gray-300 mt-2'>
-                    - Designed pantry with React Native and Expo for mobile development, React for web development, and Convex for backend development and real-time database features with Clerk JWT authentication
-                </h3>
-                <h2 className='text-md text-gray-300 mt-2'>
-                    - Developing AI agent with langgraph and Gemini for customized HITL app building as part of the nApp Project
-                </h2> 
-                <h2 className='text-md text-gray-300 mt-2'>
-                    - Building interactive frontend for nAgent project with React and Tailwind CSS, allowing users to interact with personalized calling assistant seamlessly 
-                </h2>
+                <p className='text-md text-gray-300 mt-2 text-left'>
+                    As a Software Engineering Intern, I developed 10+ agents in an agentic workflow with LangGraph and Gemini for natural language code generation, integrating RAG with ChromaDB vector search for agent context to improve code accuracy by about 40%, and implemented 50+ unit tests with Pydantic to ensure the quality of the generated code. I also built a full-stack web and mobile MVP for PantryPal, a recipe app that lets users generate and schedule recipes based on the ingredients they already have, using React Native, Expo, Convex databases, Next.js, and Clerk JWT authentication.
+                </p>
             </div>
         </div>
     )

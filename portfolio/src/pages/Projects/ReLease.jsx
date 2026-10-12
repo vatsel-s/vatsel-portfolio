@@ -7,9 +7,7 @@ function ReLease() {
             ReLease
         </h1>
         <p className='text-md text-gray-300 mt-2'>
-            Built ReLease, an interactive web application that allows landlords and tenants to easily manage leases and rental agreements. The app features AI summaries for long, convoluted 
-            lease documents, making it easier for users to understand their rights and responsibilities. It also includes an AI agent, powered by Letta and Gemini, that allows tenants and 
-            landlords to change their lease terms through natural language conversations, with real time updates for both parties. 
+            Built ReLease, an interactive web application that allows landlords and tenants to easily manage leases and rental agreements. The app features AI summaries for long, convoluted lease documents, making it easier for users to understand their rights and responsibilities. It also includes an AI agent that allows tenants and landlords to change their lease terms through natural language conversations, with real time updates for both parties.
         </p>
         <div className="flex flex-col items-start md:items-left">
               <a className='text-md text-blue-300' href="https://ai-hackathon-2025-pi.vercel.app/" target="_blank" rel="noreferrer">

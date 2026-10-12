@@ -20,15 +20,9 @@ function Lifetime() {
             </div>
         </div>
         <div className="flex flex-col items-start md:items-left">
-            <h2 className='text-md text-gray-300 mt-2'>
-                - Led tennis classes for 200+ students of ages 5-60, helping them improve their tennis skills and enhance their tennis playing experience.
-            </h2>
-            <h2 className='text-md text-gray-300 mt-2'>
-                - Collaborated with other instructors to design lesson plans with interactive drills and games to cater to each student's unique learning style and goals.
-            </h2>
-            <h2 className='text-md text-gray-300 mt-2'>
-                - Led solo lessons and private lessons and facilitated parent-teacher relationships.
-            </h2>
+            <p className='text-md text-gray-300 mt-2 text-left'>
+                As a Tennis Instructor, I led classes for 200+ students aged 5 to 60, helping them improve their skills and enjoy the game more. I collaborated with other instructors to design lesson plans with interactive drills and games suited to each student's learning style and goals, and I also taught solo and private lessons while facilitating relationships with parents.
+            </p>
         </div>
     </div>
   )

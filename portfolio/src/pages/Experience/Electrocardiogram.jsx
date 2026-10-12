@@ -20,24 +20,9 @@ function Electrocardiogram() {
             </div>
         </div>
         <div className="flex flex-col items-start md:items-left">
-            <h2 className='text-md text-gray-300 mt-2'>
-                - Built an electrocardiogram device that detects diabetes mellitus with the help of Dr. Archie Tram of Ohio State University 
-            </h2> 
-            <h2 className='text-md text-gray-300 mt-2'>
-                - Prototyped low-cost electrocardiogram device using Arduino, AD8238 sensor, and electrodes
-            </h2>
-            <h2 className='text-md text-gray-300 mt-2'>
-                - Developed preprocessing pipeline to filter and segment electrocardiogram datasets with Python libraries BioSPPy, matplotlib, numpy, and scipy for accurate feature extraction
-            </h2> 
-            <h2 className='text-md text-gray-300 mt-2'>
-                - Optimized LSTM(Long short-term memory) neural networks designed in Tensorflow with Keras Tuner for an evaluated 98% prediction accuracy
-            </h2>
-            <h2 className='text-md text-gray-300 mt-2'>
-                - Conducted 10+ participant study to evaluate device performance and model accuracy
-            </h2>
-            <h2 className='text-md text-gray-300 mt-2'>
-                - Wrote 12 page APA paper detailing findings for the UCIxGATI High School Research Paper Writing Program
-            </h2>
+            <p className='text-md text-gray-300 mt-2 text-left'>
+                I built an electrocardiogram device that detects diabetes mellitus, with guidance from Dr. Archie Tram of Ohio State University, prototyping a low-cost version with an Arduino, an AD8238 sensor, and electrodes. I developed a preprocessing pipeline with BioSPPy, matplotlib, numpy, and scipy to filter and segment the ECG datasets for accurate feature extraction, then optimized LSTM neural networks in TensorFlow with Keras Tuner to reach an evaluated 98% prediction accuracy. I evaluated the device and model in a study with 10+ participants and wrote a 12 page APA paper on the findings for the UCIxGATI High School Research Paper Writing Program.
+            </p>
         </div>
     </div>
   )

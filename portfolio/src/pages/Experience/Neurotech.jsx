@@ -21,15 +21,9 @@ function Neurotech() {
                 </div>
             </div>
             <div className="flex flex-col items-start md:items-left">
-                <h3 className='text-md text-gray-300 mt-2'>
-                    - Engineer on the Universum project, aiming to design a real-time EEG-controlled lumbar tilt detection device
-                </h3> 
-                <h3 className='text-md text-gray-300 mt-2'>
-                    - Built comprehensive GUI interface for EEG data collection with timers, login, and data visualization using Python and tkinter
-                </h3> 
-                <h3 className='text-md text-gray-300 mt-2'>
-                    - Increased accuracy of participant EEG data and reduced data collection time by 50%
-                </h3> 
+                <p className='text-md text-gray-300 mt-2 text-left'>
+                    As a Model Development Intern, I was an engineer on the Universum project, which aimed to design a real-time EEG-controlled lumbar tilt detection device. I built a comprehensive GUI in Python and tkinter for EEG data collection, with timers, login, and data visualization, which improved the accuracy of participant EEG data and reduced data collection time by 50%.
+                </p>
             </div>
         </div>
     )

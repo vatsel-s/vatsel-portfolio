@@ -16,23 +16,14 @@ function Imade() {
                     </h3>
                     <div className = "flex item-center gap-2"> 
                         <CalendarDaysIcon className="w-6 h-6" />
-                        <span className="text-gray-300"> September 2024 - Present </span>
+                        <span className="text-gray-300"> September 2024 - Present</span>
                     </div>
                 </div>
             </div>
             <div className="flex flex-col items-start md:items-left">
-                <h2 className='text-md text-gray-300 mt-2'>
-                    - Led the development of a novel, low-cost device for detecting muscle strain in gymgoers, allowing for real-time feedback on when to stop exercising to avoid muscle injury
-                </h2> 
-                <h2 className='text-md text-gray-300 mt-2'>
-                    - Collaborated with a team of students at the RSO Illinois Medical Advancements in Design and Engineering(iMADE) to design and build the device
-                </h2>
-                <h2 className='text-md text-gray-300 mt-2'>
-                    - Collected and preprocessed data from 500+ EMGs to train an SVM machine learning model to detect the stages of muscle strain, achieving 90% accuracy in detection 
-                </h2> 
-                <h2 className='text-md text-gray-300 mt-2'>
-                    -  Presented our findings at the 2025 Undergraduate Research Symposium to professors and students
-                </h2>
+                <p className='text-md text-gray-300 mt-2 text-left'>
+                    As Project Manager and Engineer at Illinois Medical Advancements in Design and Engineering (iMADE), I lead a cross-functional team of 8 engineers developing SafeFit, a novel low-cost wearable device that detects muscle strain in gymgoers to prevent injury. I designed and built the EMG device with a real-time collection pipeline in Python and Arduino, engineered an EMG dinosaur game that turned live muscle signals into in-game jumps for 300+ attendees at EOH, and trained an SVM model on data from 500+ EMGs to detect stages of muscle strain with 90% accuracy, which we presented at the 2025 Undergraduate Research Symposium.
+                </p>
             </div>
         </div>
   )

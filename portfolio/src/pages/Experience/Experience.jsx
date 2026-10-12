@@ -6,12 +6,14 @@ import Electrocardiogram from './Electrocardiogram'
 import Lifetime from './Lifetime'
 import Neurotech from './Neurotech'
 import AbbVie from './AbbVie'
+import Climer from './Climer'
 
 function Experience() {
   return (
     <div>
         <ExperiencesHeader/>
         <AbbVie />
+        <Climer />
         <Narb />
         <Imade />
         <Neurotech />

@@ -21,15 +21,9 @@ function AbbVie() {
                 </div>
             </div>
             <div className="flex flex-col items-start md:items-left">
-                <h3 className='text-md text-gray-300 mt-2'>
-                    - Working with the R&D team to develop software solutions for pharmaceutical research and development
-                </h3> 
-                <h3 className='text-md text-gray-300 mt-2'>
-                    - Conducted comprehensive system design review for efficient team transition  
-                </h3> 
-                <h3 className='text-md text-gray-300 mt-2'>
-                    - Utlizing AWS Bedrock and Large Language Models for internal tool development
-                </h3> 
+                <p className='text-md text-gray-300 mt-2 text-left'>
+                    As a Software Engineering Intern on the R&D team, I architected a spec-driven-development framework as an AI developer tool, validating it through hello-world scaffolding and reverse-engineering of brownfield applications, which improved software development efficiency for 5+ applications. I also built a medical information document translation service that has translated 100+ documents and saved 50+ R&D hours, engineering its Flask REST endpoints to integrate with Veeva APIs, deploying it on AWS through Terraform, and testing it comprehensively with the UAT team in Datadog and AWS CloudWatch.
+                </p>
             </div>
         </div>
     )

@@ -10,6 +10,8 @@ import { FaCss3Alt } from "react-icons/fa";
 import { SiArduino } from "react-icons/si";
 import { DiPostgresql } from "react-icons/di";
 import matlab from '../../images/skills/matlab.png'
+import { SiC, SiR } from "react-icons/si";
+import { FaDatabase } from "react-icons/fa";
 
 
 function Languages() {
@@ -77,6 +79,24 @@ function Languages() {
                 <img className = "w-20 h-20 invert" src = {matlab} alt = "Matlab" />
                 <h3 className='font-bold text-md mt-2'>
                     Matlab
+                </h3>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <SiC className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    C
+                </h3>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <SiR className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    R
+                </h3>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <FaDatabase className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    SQL
                 </h3>
             </div>
         </div>

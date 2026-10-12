@@ -14,7 +14,7 @@ function Hero() {
                 Computer Science and Bioengineering Student at UIUC
             </h2>
             <h2 className = 'text-md text-gray-300 mt-2'>
-                Hi! I'm Vatsel, an incoming sophomore at the University of Illinois at Urbana Champaign. 
+                Hi! I'm Vatsel, a junior at the University of Illinois at Urbana-Champaign studying Computer Science and Bioengineering (3.9 GPA, expected December 2027). 
                 I'm passionate about engineering at the intersection of biology and computation, particularly in the fields of computational 
                 drug discovery and synthetic biology. I enjoy working on real-world challenges that can make positive impacts to the world around me. 
                 Outside of academics, I love playing tennis, cricket, and golf, as well as biking, going to concerts, and playing chess.

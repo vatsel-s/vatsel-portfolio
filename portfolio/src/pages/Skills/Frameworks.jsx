@@ -9,6 +9,8 @@ import { FaAws } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { DiVisualstudio } from "react-icons/di";
 import { SiAnaconda } from "react-icons/si";
+import { SiGit, SiClaude } from "react-icons/si";
+import { FaRobot } from "react-icons/fa";
 
 
 function Frameworks() {
@@ -70,6 +72,24 @@ function Frameworks() {
                 <SiAnaconda className='w-20 h-20' />
                 <h3 className='font-bold text-md mt-2'>
                     Anaconda
+                </h3>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <SiGit className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    Git
+                </h3>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <SiClaude className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    Claude Code
+                </h3>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <FaRobot className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    Roo Code
                 </h3>
             </div>
         </div>

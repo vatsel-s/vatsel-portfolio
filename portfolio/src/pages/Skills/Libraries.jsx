@@ -9,6 +9,7 @@ import { SiPytorch } from "react-icons/si";
 import { SiOpenai } from "react-icons/si";
 import { SiLangchain } from "react-icons/si";
 import { SiHuggingface } from "react-icons/si";
+import { SiOpencv } from "react-icons/si";
 
 
 function Libraries() {
@@ -64,6 +65,18 @@ function Libraries() {
                 <SiHuggingface className='w-20 h-20' />
                 <h3 className='font-bold text-md mt-2'>
                     Hugging Face
+                </h3>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <SiPytorch className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    PyTorch
+                </h3>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl bg-gray-800 h-[150px] w-[150px]'>
+                <SiOpencv className='w-20 h-20' />
+                <h3 className='font-bold text-md mt-2'>
+                    OpenCV
                 </h3>
             </div>
         </div>
